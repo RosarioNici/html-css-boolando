@@ -63,6 +63,10 @@ img {
     position: relative;
 }
 
+.card:hover .heart {
+    color: red;
+}
+
 .red {
     color: red;
 }
@@ -98,6 +102,42 @@ img {
     top: 20px;
     right: -10px;
     text-align: center;
+}
+
+#one {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#two {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#three {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#four {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#five {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#six {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
 }
 
 /* rules of footer */
