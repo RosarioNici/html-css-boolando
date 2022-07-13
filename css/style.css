@@ -99,3 +99,31 @@ img {
     right: -10px;
     text-align: center;
 }
+
+/* rules of footer */
+
+footer {
+    background-color: hsl(0deg 0% 10%);
+    height: 80px;
+}
+
+.containerf {
+    max-width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0 auto;
+
+}
+
+h3 {
+    color: white;
+}
+
+#social {
+    text-align: center;
+}
+
+.containerf>div {
+    line-height: 1.5;
+}
