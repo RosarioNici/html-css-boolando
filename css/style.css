@@ -33,6 +33,40 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
+#boolean {
     width: 100px;
+    height: auto;
+}
+
+/* star rules of main */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1300px;
+
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+.card {
+    max-width: calc(90% / 3);
+    margin: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.cut {
+    color: grey;
+    text-decoration: line-through;
 }
