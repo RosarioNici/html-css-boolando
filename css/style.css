@@ -14,13 +14,18 @@ body {
 
 
 /* Header rules */
+header {
+    background-color: hsl(25deg 100% 50%);
+}
 
 .containerh {
     background-color: hsl(25deg 100% 50%);
+    max-width: 1230px;
     height: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 i,
