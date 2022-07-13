@@ -60,6 +60,7 @@ img {
 .card {
     max-width: calc(90% / 3);
     margin: 15px;
+    position: relative;
 }
 
 .red {
@@ -69,4 +70,32 @@ img {
 .cut {
     color: grey;
     text-decoration: line-through;
+}
+
+.eco {
+    background-color: green;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.sales {
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.colors {
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+}
+
+.heart {
+    font-size: 40px;
+    background-color: white;
+    position: absolute;
+    width: 60px;
+    top: 20px;
+    right: -10px;
+    text-align: center;
 }
