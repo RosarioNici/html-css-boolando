@@ -144,13 +144,22 @@ img {
 
 }
 
-.pic2:hover {
+.container-img .pic1 {
+    display: none;
 
-    visibility: visible;
 }
 
-.pic1:hover {
-    visibility: hidden;
+.container-img .pic2 {
+    display: block;
+}
+
+.container-img .pic2:hover {
+    display: none;
+
+}
+
+.container-img .pic1:hover {
+    display: block;
 }
 
 
