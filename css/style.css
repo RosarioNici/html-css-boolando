@@ -109,41 +109,52 @@ img {
     text-align: center;
 }
 
+
 #one {
     position: absolute;
     top: 0;
-    visibility: hidden;
 }
 
 #two {
     position: absolute;
     top: 0;
-    visibility: hidden;
 }
 
 #three {
     position: absolute;
     top: 0;
-    visibility: hidden;
+    display: block;
 }
 
 #four {
     position: absolute;
     top: 0;
-    visibility: hidden;
+    display: block;
 }
 
 #five {
     position: absolute;
     top: 0;
-    visibility: hidden;
+    display: block;
 }
 
 #six {
     position: absolute;
     top: 0;
+    display: block;
+}
+
+.pic2:hover {
+
+    visibility: visible;
+}
+
+.pic1:hover {
     visibility: hidden;
 }
+
+
+
 
 /* rules of footer */
 
