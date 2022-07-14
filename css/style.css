@@ -144,22 +144,18 @@ img {
 
 }
 
-.container-img .pic1 {
-    display: none;
+.pic2 {
+    opacity: 0;
+}
+
+
+.container-img:hover .pic2 {
+    opacity: 1;
 
 }
 
-.container-img .pic2 {
-    display: block;
-}
-
-.container-img .pic2:hover {
-    display: none;
-
-}
-
-.container-img .pic1:hover {
-    display: block;
+.container-img:hover .pic1 {
+    opacity: 0;
 }
 
 
